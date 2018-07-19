@@ -4,6 +4,13 @@
 """
 listen the end effecotr transform and recored the pose info ini csv file
 """
+"""
+BUGS (SOLVED):
+1) getch() will wait untill key press happen,
+2) keyboard module must be used as root, where ROS env is not accessible 
+3) well, callback, rospy.is_shutdown doesn't accept arguments,
+"""
+
 
 # import roslib
 import rospy
